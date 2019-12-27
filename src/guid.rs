@@ -23,9 +23,9 @@ use crate::util::element_text;
 #[builder(setter(into), default)]
 pub struct Guid {
     /// The value of the GUID.
-    value: String,
+    pub value: String,
     /// Indicates if the GUID is a permalink.
-    permalink: bool,
+    pub permalink: bool,
 }
 
 impl Guid {

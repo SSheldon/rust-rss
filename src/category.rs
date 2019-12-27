@@ -23,9 +23,9 @@ use crate::util::element_text;
 #[builder(setter(into), default)]
 pub struct Category {
     /// The name of the category.
-    name: String,
+    pub name: String,
     /// The domain for the category.
-    domain: Option<String>,
+    pub domain: Option<String>,
 }
 
 impl Category {
